@@ -27,5 +27,12 @@ expect(user.getUsername).toBe("venenodigital")
 
 
 	})
+test("Requerimiento 4: setters", () =>{
+const user = new User(1,"venenodigital","Danny veneno","bio",)
+user.setUsername = "venenodigital"
+expect(user.username).toBe("venenodigital")
+
+
+})
 
 })
