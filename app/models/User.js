@@ -5,11 +5,11 @@ class User {
 		this.username = username
 		this.name = name
 		this.bio = bio
-		this.dateCreated = dateCreated
-		this.lastUpdated = lastUpdated
+		this.dateCreated = new Date()
+		this.lastUpdated = new Date()
 	}
-	getGeneralInfo(){
-return `Información de este usuario es:${this.id},${this.username},${this.name},${this.bio}, ${this.dateCreated},${this.lastUpdated}`
+	get getUsername(){
+return  this.username
   }
 
 }
