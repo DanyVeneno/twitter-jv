@@ -6,7 +6,7 @@ describe("Test for UserService", () =>{
 
 
 		const user = UserService.create(1,"daniel","danny")
-		expect(user.username).toBe("daniekl")
+		expect(user.username).toBe("daniel")
 		expect(user.name).toBe("danny")
 		expect(user.id).toBe(1)
 		expect(user.bio).not.toBeUndefined()
